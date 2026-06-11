@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:block;
+            background-color: olive;
+            width: 100px;
+        }
+        .inline{
+            display: inline;
+            background-color: lightblue;
+            width: 100px;
+        }
+        .inlineblock{
+            display: inline-block;
+            background-color: mediumturquoise;
+            width: 100px;
+        }
+        span{
+            display:inline;
+            background-color:lightpink;
+            width: 100px;
+        }
+        .navbar{
+            background-color: teal;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+         }
+         .list{
+            list-style:none;
+         }
+         .link{
+            text-decoration: none;
+            color:black;
+            padding: 10px;
+            background-color: darkorange;
+            border-radius: 10px;
+         }
+         .link:hover{
+            background-color: blue;
+            color: brown;
+         }
+    </style>
+
+</head>
+<body>
+    <p class="container">money make you rich</p>
+    <p class="inline">money gives you freedom</p>
+    <p class="inlineblock">money gives you respect</p>
+    <span>money.</span>
+    <nav>
+        <ul class="navbar">
+            <li class="list"><a href="" class="link">Home</a></li>
+            <li class="list"><a href="" class="link">About</a></li>
+            <li class="list"><a href="" class="link">Contact</a></li>
+            <li class="list"><a href="" class="link">Service</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
